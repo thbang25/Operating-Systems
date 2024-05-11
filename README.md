@@ -7,9 +7,11 @@ This is a Java program that simulates a system to schedule orders placed by patr
 **To compile the Java files**: navigate to the directory that contains the Java files (`SchedulingSimulation.java`, `Barman.java`, `Patron.java`, `DrinkOrder.java`) using a terminal or command prompt. Then, compile the Java files using the `javac` command as follows:
 
 **javac barScheduling/*.java**
+
 will run the program using the default values set in the program
 
 **java barScheduling.SchedulingSimulation <number_of_patrons> <scheduling_algorithm>**
+
 option `1`: is First Come First Served
 option `2`: is Shortest Job First
 
